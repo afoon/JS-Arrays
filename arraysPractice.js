@@ -32,7 +32,7 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
   //Code Here
 function looper (family){
   for (var i =0; i < family.length; i++){
-    family[i];
+    alert(family[i]);
   }
 }
 
@@ -46,8 +46,8 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
   //Code Here
 function reversedLooper(letters){
-  for (var i = letters.length -1; i < letters.length; i++){
-    letters[i];
+  for (var i = letters.length -1; i >= 0; i--){
+    alert(letters[i]);
   }
 }
 
